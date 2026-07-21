@@ -11,7 +11,7 @@ Command: `proton-mail-bridge`, short alias `pmb`.
 ## Setup (once)
 
 ```bash
-uv tool install git+https://github.com/codename-cn/proton-mail-bridge-cli
+uv tool install git+https://github.com/evrenverse/proton-mail-bridge-cli
 pmb account add   # wizard: host/ports + email + bridge password, tests the login
 ```
 

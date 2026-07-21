@@ -1,6 +1,6 @@
 # proton-mail-bridge-cli
 
-[![CI](https://github.com/codename-cn/proton-mail-bridge-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/codename-cn/proton-mail-bridge-cli/actions/workflows/ci.yml)
+[![CI](https://github.com/evrenverse/proton-mail-bridge-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/evrenverse/proton-mail-bridge-cli/actions/workflows/ci.yml)
 
 > Unofficial, agent-native CLI for **Proton Mail Bridge** — search, read, send, and organize
 > mail through the local IMAP/SMTP gateway. Multi-account, JSON output for AI agents, robust
@@ -9,7 +9,7 @@
 ## Quickstart
 
 ```bash
-uv tool install git+https://github.com/codename-cn/proton-mail-bridge-cli
+uv tool install git+https://github.com/evrenverse/proton-mail-bridge-cli
 pmb account add            # wizard: host/ports + email + bridge password, tests the login
 pmb --json message search --text "invoice" --since 2026-01-01 --with-body
 ```
@@ -23,7 +23,7 @@ You can hand this block to an agent as-is ("here's the repo, install it"):
 
 ```bash
 # 1. Install (requires uv: https://docs.astral.sh/uv/)
-uv tool install git+https://github.com/codename-cn/proton-mail-bridge-cli
+uv tool install git+https://github.com/evrenverse/proton-mail-bridge-cli
 # 2. Check connectivity — Proton Mail Bridge must be running
 pmb --json bridge doctor
 # 3. Set up an account (non-interactive). The bridge password (≠ Proton password)

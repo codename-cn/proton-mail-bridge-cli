@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Apache-2.0" }
 keywords = ["proton", "protonmail", "proton-bridge", "imap", "smtp", "cli", "agent", "claude", "codex"]
-authors = [{ name = "codename-cn" }]
+authors = [{ name = "evrenverse" }]
 dependencies = [
     "click>=8.1",
     "imap-tools>=1.7",
@@ -17,9 +17,9 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/codename-cn/proton-mail-bridge-cli"
-Issues = "https://github.com/codename-cn/proton-mail-bridge-cli/issues"
-Changelog = "https://github.com/codename-cn/proton-mail-bridge-cli/blob/main/CHANGELOG.md"
+Repository = "https://github.com/evrenverse/proton-mail-bridge-cli"
+Issues = "https://github.com/evrenverse/proton-mail-bridge-cli/issues"
+Changelog = "https://github.com/evrenverse/proton-mail-bridge-cli/blob/main/CHANGELOG.md"
 
 [project.scripts]
 proton-mail-bridge = "proton_mail_bridge.cli:main"
